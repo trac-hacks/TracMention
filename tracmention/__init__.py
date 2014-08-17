@@ -1,6 +1,6 @@
 import re
 
-from trac.core import *
+from trac.core import Component, implements
 from trac.ticket.api import ITicketChangeListener
 from trac.ticket.notification import TicketNotifyEmail
 from trac.perm import IPermissionRequestor, PermissionSystem
